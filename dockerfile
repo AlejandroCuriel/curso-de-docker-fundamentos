@@ -1,0 +1,5 @@
+FROM nginx:latest
+
+# Path: /usr/share/nginx/html
+#Copia el contenido de la carpeta "sitio" al directorio raíz de nginx
+COPY /sitio /usr/share/nginx/html
